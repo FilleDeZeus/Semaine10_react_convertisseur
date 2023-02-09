@@ -43,20 +43,20 @@ export const Convertisseur = () => {
             onChange={Montant}
         />
         <select value={initial} onChange={Initial}>
-            <option value="EUR">Euro </option>
-            <option value="USD">Dollar américain</option>
-            <option value="GBP">GBP</option>
-            <option value="DZD">Dinar algérien</option>
-            <option value="SEK">Couronne suédoise</option>
+            <option value="EUR">Euro €</option>
+            <option value="USD">Dollar américain $ </option>
+            <option value="GBP">Livre sterling £</option>
+            <option value="DZD">Dinar algérien د.ج </option>
+            <option value="SEK">Couronne suédoise kr </option>
 
 
         </select>
         <select value={convertir} onChange={Convertir}>
-            <option value="EUR">Euro</option>
-            <option value="USD">Dollar américain</option>
-            <option value="GBP">Livre sterling</option>
-            <option value="DZD">Dinar algérien</option>
-            <option value="SEK">Couronne suédoise</option>
+            <option value="EUR">Euro € </option>
+            <option value="USD">Dollar américain $ </option>
+            <option value="GBP">Livre sterling £ </option>
+            <option value="DZD">Dinar algérien د.ج </option>
+            <option value="SEK">Couronne suédoise kr </option>
 
 
 
