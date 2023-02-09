@@ -38,8 +38,11 @@ export const Convertisseur = () => {
     return (
     <div>
         <input
+            // type de l'input
             type="number"
+            //etat de l'input
             value={montant}
+            //quand l'input change, j'appelle la fonction et l'etat de la nouvelle page change
             onChange={Montant}
         />
         <select value={initial} onChange={Initial}>
